@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1023px) {
+
+    .menu-lateral,
+    .rodape,
+    .cabecalho,
+    .secao-horizontal .cartao__subtitulo,
+    .secao-horizontal .cartao__botao,
+    .secao-horizontal .cartao__player,
+    .secao-vertical .secao__link {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .secao-horizontal .cartao{
+        column-gap: 0.5rem;
+        grid-row: 1/4;
+        align-self: center;
+    }
+
+    .secao-horizontal .cartao {
+        column-gap: 0.5rem;
+    }
+
+}
